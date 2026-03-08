@@ -1,0 +1,17 @@
+.check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.check p {
+    font-size: 0.7em;
+}
+
+input[type="checkbox"] {
+    accent-color: var(--color-principal);
+    width: auto;
+    height: auto;
+}

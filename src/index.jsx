@@ -1,13 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import PaginaRegistro from './paginas/PaginaRegistro.jsx';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import PaginaLogin from './paginas/PaginaLogin.jsx';
+import GestionarReservas from './paginas/GestionarReservas';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<PaginaRegistro />}/>
+        <Route path="/login" element={<PaginaLogin />}/>
+        <Route path="/admin" element={<GestionarReservas />}/>
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

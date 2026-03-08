@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: black;
+    border-bottom: 1px solid #585858;
+    width: 100vw;
+    max-width: 100%;
+}
+
+.header button {
+    width: 25vw;
+    max-width: 180px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    min-width: 30px;
+}
+
+.social-media img {
+    width: 35px;
+    margin: 0.9rem;
+}

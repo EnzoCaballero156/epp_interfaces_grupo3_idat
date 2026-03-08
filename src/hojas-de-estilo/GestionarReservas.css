@@ -1,0 +1,67 @@
+.contenedor-gr{
+    display: flex;
+}
+
+/* ----------------LADO IZQUIERDO-----------------------------------*/
+.izquierda-gr{
+    flex: 1.3;
+    background-image: url('../img/background.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.izquierda-gr h1{
+    position: relative;
+    font-size: 80px;
+    font-family: 'Kavoon', serif;
+    font-weight: 500;
+    padding: 70px;
+    background: linear-gradient(to bottom, #FFFC5A, #E15200);
+    background-clip: border-box;
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+/*----------------------LADO DERECHO----------------------------*/
+.derecha-gr{
+    flex: 2;
+    background-image: url('../img/bg-madera.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 80px;
+    gap: 0px;
+}
+
+.derecha-gr h2{
+    font-size: 25px;
+    font-family: 'Lora', serif;
+    color: #FFD200;
+    gap: 40px;
+    align-self: flex-start;
+    margin-left: 100px;
+    text-shadow: 2px 2px 6px black;
+}
+
+
+/*----------------------CARTAS----------------------------*/
+.cartas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+    margin: 0;
+    justify-items: center;
+    align-items: center;
+}
+
+.cartas > *:nth-child(3){
+    grid-column: span 2;
+}
