@@ -1,4 +1,4 @@
-# Evaluación Parcial Definitiva (Desarrollo de Interfaces 2)
+# Evaluación Parcial Definitiva (Grupo 3)
 
 Integrantes:
 - Caballero Crisostomo, Enzo Gabriel
